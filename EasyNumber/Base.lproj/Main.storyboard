@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +12,86 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EasyNumber" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="karolina-szczur-521447-unsplash.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Giz-G2-7I2">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V69-VW-yt8">
+                                <rect key="frame" x="0.0" y="44" width="336" height="44"/>
+                                <color key="backgroundColor" red="0.48705850125569372" green="0.48705850125569372" blue="0.48705850125569372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="0.38775009360000001" blue="0.42863268339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Number" id="Jge-ga-FR9"/>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ckw-Af-J0m">
+                                <rect key="frame" x="0.0" y="641" width="336" height="53"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <barButtonItem title="Item" image="baseline_remove_circle_black_48pt_1x.png" id="k3h-EZ-8BE">
+                                        <connections>
+                                            <action selector="decreaseNumber:" destination="BYZ-38-t0r" id="dcx-7F-Sry"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="DMB-Y0-PRj"/>
+                                    <barButtonItem title="Start" id="c7U-zn-ZMA">
+                                        <connections>
+                                            <action selector="startNumber:" destination="BYZ-38-t0r" id="CDZ-Bz-8vw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Qjv-lJ-vBR"/>
+                                    <barButtonItem title="Item" image="baseline_add_circle_black_48pt_1x.png" id="jbD-gm-Z3y">
+                                        <connections>
+                                            <action selector="increaseNumber:" destination="BYZ-38-t0r" id="GXt-zv-3td"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="1" green="0.38775009358289847" blue="0.42863268339266924" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mX-2X-MiD">
+                                <rect key="frame" x="0.0" y="315" width="375" height="182"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="150"/>
+                                <color key="textColor" red="0.98788787229999997" green="1" blue="0.96475542010000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.4870585013" green="0.4870585013" blue="0.4870585013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="3" height="3"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2mX-2X-MiD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D95-rn-jl4"/>
+                            <constraint firstItem="Giz-G2-7I2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Hnu-nJ-h78"/>
+                            <constraint firstItem="V69-VW-yt8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ICG-YT-N52"/>
+                            <constraint firstItem="Giz-G2-7I2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="N5I-e7-g3w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2mX-2X-MiD" secondAttribute="trailing" id="NE5-Rn-L2S"/>
+                            <constraint firstItem="Ckw-Af-J0m" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Pyf-q3-aY7"/>
+                            <constraint firstItem="V69-VW-yt8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TfN-TW-WmB"/>
+                            <constraint firstItem="Giz-G2-7I2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VMc-fy-Wmp"/>
+                            <constraint firstItem="2mX-2X-MiD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YWR-Ot-dne"/>
+                            <constraint firstItem="V69-VW-yt8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eb3-vr-H6f"/>
+                            <constraint firstItem="Ckw-Af-J0m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fND-Di-FMv"/>
+                            <constraint firstItem="Giz-G2-7I2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lhT-8a-kec"/>
+                            <constraint firstItem="2mX-2X-MiD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pm3-AW-NXb"/>
+                            <constraint firstItem="Ckw-Af-J0m" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vey-Fc-hJA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="numberLable" destination="2mX-2X-MiD" id="iT3-Jk-LYX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.00492610837438"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="baseline_add_circle_black_48pt_1x.png" width="48" height="48"/>
+        <image name="baseline_remove_circle_black_48pt_1x.png" width="48" height="48"/>
+        <image name="karolina-szczur-521447-unsplash.jpg" width="3648" height="5472"/>
+    </resources>
 </document>

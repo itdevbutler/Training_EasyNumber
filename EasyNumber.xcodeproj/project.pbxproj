@@ -12,6 +12,14 @@
 		BBB5F28A215F689B0082785F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB5F288215F689B0082785F /* Main.storyboard */; };
 		BBB5F28C215F689E0082785F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB5F28B215F689E0082785F /* Assets.xcassets */; };
 		BBB5F28F215F689E0082785F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB5F28D215F689E0082785F /* LaunchScreen.storyboard */; };
+		BBB5F299215F6A450082785F /* fredrik-ohlander-401637-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB5F298215F6A450082785F /* fredrik-ohlander-401637-unsplash.jpg */; };
+		BBB5F29D215F6EC50082785F /* baseline_remove_circle_black_48pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB5F29A215F6EC40082785F /* baseline_remove_circle_black_48pt_3x.png */; };
+		BBB5F29E215F6EC50082785F /* baseline_remove_circle_black_48pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB5F29B215F6EC40082785F /* baseline_remove_circle_black_48pt_2x.png */; };
+		BBB5F29F215F6EC50082785F /* baseline_remove_circle_black_48pt_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB5F29C215F6EC50082785F /* baseline_remove_circle_black_48pt_1x.png */; };
+		BBB5F2A9215F701C0082785F /* baseline_add_circle_black_48pt_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB5F2A6215F701C0082785F /* baseline_add_circle_black_48pt_1x.png */; };
+		BBB5F2AA215F701C0082785F /* baseline_add_circle_black_48pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB5F2A7215F701C0082785F /* baseline_add_circle_black_48pt_2x.png */; };
+		BBB5F2AB215F701C0082785F /* baseline_add_circle_black_48pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB5F2A8215F701C0082785F /* baseline_add_circle_black_48pt_3x.png */; };
+		BBB5F2AD215F70830082785F /* karolina-szczur-521447-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB5F2AC215F70830082785F /* karolina-szczur-521447-unsplash.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		BBB5F28B215F689E0082785F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBB5F28E215F689E0082785F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBB5F290215F689E0082785F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB5F298215F6A450082785F /* fredrik-ohlander-401637-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fredrik-ohlander-401637-unsplash.jpg"; sourceTree = "<group>"; };
+		BBB5F29A215F6EC40082785F /* baseline_remove_circle_black_48pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_remove_circle_black_48pt_3x.png; sourceTree = "<group>"; };
+		BBB5F29B215F6EC40082785F /* baseline_remove_circle_black_48pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_remove_circle_black_48pt_2x.png; sourceTree = "<group>"; };
+		BBB5F29C215F6EC50082785F /* baseline_remove_circle_black_48pt_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_remove_circle_black_48pt_1x.png; sourceTree = "<group>"; };
+		BBB5F2A6215F701C0082785F /* baseline_add_circle_black_48pt_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_add_circle_black_48pt_1x.png; sourceTree = "<group>"; };
+		BBB5F2A7215F701C0082785F /* baseline_add_circle_black_48pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_add_circle_black_48pt_2x.png; sourceTree = "<group>"; };
+		BBB5F2A8215F701C0082785F /* baseline_add_circle_black_48pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_add_circle_black_48pt_3x.png; sourceTree = "<group>"; };
+		BBB5F2AC215F70830082785F /* karolina-szczur-521447-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "karolina-szczur-521447-unsplash.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,14 @@
 		BBB5F283215F689B0082785F /* EasyNumber */ = {
 			isa = PBXGroup;
 			children = (
+				BBB5F2AC215F70830082785F /* karolina-szczur-521447-unsplash.jpg */,
+				BBB5F2A6215F701C0082785F /* baseline_add_circle_black_48pt_1x.png */,
+				BBB5F2A7215F701C0082785F /* baseline_add_circle_black_48pt_2x.png */,
+				BBB5F2A8215F701C0082785F /* baseline_add_circle_black_48pt_3x.png */,
+				BBB5F298215F6A450082785F /* fredrik-ohlander-401637-unsplash.jpg */,
+				BBB5F29C215F6EC50082785F /* baseline_remove_circle_black_48pt_1x.png */,
+				BBB5F29B215F6EC40082785F /* baseline_remove_circle_black_48pt_2x.png */,
+				BBB5F29A215F6EC40082785F /* baseline_remove_circle_black_48pt_3x.png */,
 				BBB5F284215F689B0082785F /* AppDelegate.swift */,
 				BBB5F286215F689B0082785F /* ViewController.swift */,
 				BBB5F288215F689B0082785F /* Main.storyboard */,
@@ -122,9 +146,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB5F29F215F6EC50082785F /* baseline_remove_circle_black_48pt_1x.png in Resources */,
 				BBB5F28F215F689E0082785F /* LaunchScreen.storyboard in Resources */,
+				BBB5F29D215F6EC50082785F /* baseline_remove_circle_black_48pt_3x.png in Resources */,
+				BBB5F2AB215F701C0082785F /* baseline_add_circle_black_48pt_3x.png in Resources */,
+				BBB5F2AA215F701C0082785F /* baseline_add_circle_black_48pt_2x.png in Resources */,
 				BBB5F28C215F689E0082785F /* Assets.xcassets in Resources */,
+				BBB5F2AD215F70830082785F /* karolina-szczur-521447-unsplash.jpg in Resources */,
 				BBB5F28A215F689B0082785F /* Main.storyboard in Resources */,
+				BBB5F29E215F6EC50082785F /* baseline_remove_circle_black_48pt_2x.png in Resources */,
+				BBB5F299215F6A450082785F /* fredrik-ohlander-401637-unsplash.jpg in Resources */,
+				BBB5F2A9215F701C0082785F /* baseline_add_circle_black_48pt_1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
